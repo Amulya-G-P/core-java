@@ -1,0 +1,11 @@
+class UserProfile
+{
+	public static void main(String[] args)
+	{
+		String username;
+		userName=null;
+		System.out.println(username)
+		userName="Baba";
+		System.out.println(username);
+	}
+}
