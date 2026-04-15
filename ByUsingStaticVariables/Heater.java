@@ -1,0 +1,72 @@
+class Heater
+{
+	static String brand;
+	static 	String special_feature;
+	static 	String colour;
+	static 	String form_factor;
+	static 	String indoororoutdoorusage;
+	static 	String product_dimensions;
+	static 	String recommendedusesforproduct;
+	static 	String mounting;
+	static 	String room;
+	static 	String voltage;
+	static 	double manufacturer_year;
+	static 	String manufacturer;
+	static 	String country_of_origin;
+	static 	String item_model_number;
+	static 	String asin;
+	static 	String manufacturer_location;
+	static 	String packer;
+	static 	String item_weight;
+	static 	String net_quantity;
+	static 	String components;
+	static 	String generic_name;
+	static 	String best_sellers_rank;
+	public static void main(String[] args)
+	{
+		brand="Havells";
+		special_feature="Cool Touch Exterior";
+		colour="Black";
+		form_factor="Pedestal";
+		indoororoutdoorusage="Indoor";
+		product_dimensions="‎20D x 15W x 20H Centimeters ";
+		recommendedusesforproduct="Home";
+		mounting="Tabletop Mount";
+		room=" ‎Bedroom";
+		voltage="230 Volts(AC)";
+		manufacturer_year=2024;
+		manufacturer="Havells, India ,Ltd";
+		country_of_origin="India";
+		item_model_number="‎Inclino‎";
+		asin="‎‎B0BPBZL1KB ";
+		manufacturer_location="Havells India Limited, Havells India Ltd";
+		packer="Havells India Ltd.";
+		item_weight="3 kg 200 g";
+		net_quantity=" 1 Count";
+		components=" 1N Room Heater, 1N User Manual";
+		generic_name="Rod Halogen Heater ";
+		best_sellers_rank="#24,153 in Home & Kitchen (See Top 100 in Home & Kitchen)#5 in Halogen Heaters";
+		System.out.println(" Brand is : " + brand);
+		System.out.println(" Special Feature is : " + special_feature);
+		System.out.println(" Colour is : " + colour);
+		System.out.println("Form Factor is : " + form_factor);
+		System.out.println(" Indoor or Outdoor Usage is : " + indoororoutdoorusage);
+		System.out.println(" Product Dimensions is : " + product_dimensions);
+		System.out.println(" Recommendations of product : " + recommendedusesforproduct);
+		System.out.println(" Mounting type is : " + mounting);
+		System.out.println(" Room type is : " + room);
+		System.out.println(" Voltage is : " + voltage);
+		System.out.println(" Manufacturer Year is : " + manufacturer_year);
+		System.out.println(" Manufacturer  is : " + manufacturer);
+		System.out.println(" Country Of Origin is : " + country_of_origin);
+		System.out.println(" Item Model Number is : " + item_model_number);
+		System.out.println(" ASIN is : " + asin);
+		System.out.println(" Manufacturer is : " + manufacturer_location);
+		System.out.println(" PACKER is : " + packer);
+		System.out.println(" Item Weight is : " + item_weight);
+		System.out.println(" Net Quantity is : " + net_quantity);
+		System.out.println(" Components are : " + components);
+		System.out.println(" Generic Name is : " + generic_name);
+		System.out.println(" Best sellers Rank is : " + best_sellers_rank);
+	}
+}
