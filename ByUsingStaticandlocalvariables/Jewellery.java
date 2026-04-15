@@ -1,0 +1,70 @@
+class Jewellery
+{
+	static String is_discotinued_by_manufacturer="yes";
+	static String product_dimensions="10 x 11 x 5 cm; 40 g";
+	static String date_first_available="30 June 2016";
+	static String manufacturer="Jewellery";
+	static String asin="P0DGDGJG";
+	static String item_model_number="‎YSSN_91340A";
+	static String country_of_origin="china";
+	static String department="girls";
+	static String manufacturer_contact_information="SDG Fashions";
+	static String packer="SDG Fashions";
+	static String item_weight="40 g";
+	static String item_dimensions="10 x 11 x 5 cm; 40 g";
+	static String net_quantity="2 Count";
+	static String components=" 2 Bracelet";
+	static String generic_name="Jewellery";
+	static String best_sellers_rank="#7 in Jewellery";
+	public static void main(String[] args)
+	{
+		String is_discotinued_by_manufacturer="No";
+		String product_dimensions="15 x 11 x 5 cm; 50 g";
+		String date_first_available="5 December 2016";
+		String manufacturer=" YouBella Jewellery & Lifestyle";
+		String asin="B071CMQ6N2 ";
+		String item_model_number="‎YBBN_91340A";
+		String country_of_origin="India";
+		String department="womens";
+		String manufacturer_contact_information="YBJ Fashions Pvt Ltd, WZ 242A, Street No 7, R/P Pole No 209, Sadh Nagar, Palam colony, New Delhi 110045, YouBella Jewellery & Lifestyle";
+		String packer="YBJ Fashions Pvt Ltd, WZ 242A, R/P Pole No 209 ,Street No 7, Sadh Nagar, Palam Colony, New Delhi - 110045";
+		String item_weight="50 g";
+		String item_dimensions=" 15 x 11 x 5 Centimeters";
+		String net_quantity="1.00 Count";
+		String components="1 Bracelet";
+		String generic_name="Fashion Jewellery";
+		String best_sellers_rank=" #3 in Jewellery (See Top 100 in Jewellery)#2 in Women's Bracelets";
+		System.out.println("Is Discontinued by manufacturer: " + is_discotinued_by_manufacturer);
+		System.out.println("Is Discontinued by manufacturer: " + Jewellery.is_discotinued_by_manufacturer);
+		System.out.println("Product Dimensions: " + product_dimensions);
+		System.out.println("Product Dimensions: " + Jewellery.product_dimensions);
+		System.out.println("Date First available: " + date_first_available);
+		System.out.println("Date First available: " + Jewellery.date_first_available);
+		System.out.println("Manufacturer  : " + manufacturer);
+		System.out.println("Manufacturer  : " + Jewellery.manufacturer);
+		System.out.println("Asin : " + asin);
+		System.out.println("Asin : " + Jewellery.asin);
+		System.out.println("Item Model Number : " + item_model_number);
+		System.out.println("Item Model Number : " + Jewellery.item_model_number);
+		System.out.println("Country of Origin : " + country_of_origin);
+		System.out.println("Country of Origin : " + Jewellery.country_of_origin);
+		System.out.println("Department: " + department);
+		System.out.println("Department: " + Jewellery.department);
+		System.out.println("Manufaturer Contact Information : " + manufacturer_contact_information);
+		System.out.println("Manufaturer Contact Information : " + Jewellery.manufacturer_contact_information);
+		System.out.println("Packer: " + packer);
+		System.out.println("Packer: " + Jewellery.packer);
+		System.out.println("Item Weight: " + item_weight);
+		System.out.println("Item Weight: " + Jewellery.item_weight);
+		System.out.println("Item Dimensions: " + item_dimensions);
+		System.out.println("Item Dimensions: " + Jewellery.item_dimensions);
+		System.out.println("Net Quantity: " + net_quantity);
+		System.out.println("Net Quantity: " + Jewellery.net_quantity);
+		System.out.println("Included Components: " + components);
+		System.out.println("Included Components: " + Jewellery.components);
+		System.out.println("Generic Name: " + generic_name);
+		System.out.println("Generic Name: " + Jewellery.generic_name);
+		System.out.println("Best sellers rank: " + best_sellers_rank);
+		System.out.println("Best sellers rank: " + Jewellery.best_sellers_rank);
+	}
+}
