@@ -1,0 +1,88 @@
+Explain constructor chaining using this() with example
+ -- Constructor chaining means calling one constructor from another constructor within the same class.
+ --this()keyword is used to call another constructor of the same class.
+	   
+ Explain default values assigned to instance variables in java with example
+ 
+ --Default values are given only to instance variables.
+ --Local variables  do not  get default values — 
+ 
+ 
+   class Myntra {
+
+    String dressType;
+    float price;
+    boolean isAvailable;
+    
+
+    public static void main(String[] args) {
+
+         Myntra obj = new Myntra();
+
+        System.out.println("int: " + obj.dressType);
+        System.out.println("float: " + obj.price);
+        System.out.println("boolean: " + obj.isAvailable);
+       
+    }
+}
+Write an program to demonstatre a default constructor
+      class Student {
+
+        int id;
+        String name;
+
+    
+    Student() 
+	{
+        System.out.println("Default constructor is called");
+        id = 101;
+        name = "Amrutha";
+    }
+
+    public  void getStudentDetails() {
+        System.out.println(" The student id is ID: " + id);
+        System.out.println("Name: " + name);
+    }
+}
+
+class StudentRunner {
+    public static void main(String[] args) {
+
+        
+        Student s1 = new Student();  
+
+        s1.getStudentDetails();
+    }
+}
+  
+What is a constructor in java and who provides the default constructor
+  --- A constructor is a special method in Java having class nameand method name  is same. It is automatically called when an object is created.
+     java compiler provides an default constructor
+	 
+Can constructor have an return type ? why?
+ -- not have an return type 
+ -- Constructors are automatically called when an object is created using new.
+ -- give a return type (void), then it is no longer a constructor — it becomes a normal method so not have an  return type.
+ 
+Give an real - world example of has-a realtionship
+
+class AdithyaBirlaGroup {
+    int groupId;
+    String groupName;
+    
+    public void getGroupDetails() {
+        System.out.println("the group Id is " + groupId);
+        System.out.println("the group Name is " + groupName);
+        
+    }
+}
+class AdithyaBirlaGroupExecutor {
+    public static void main(String[] args) {
+        AdithyaBirlaGroup abg1 = new AdithyaBirlaGroup(); 
+		abg1.groupId=1; 
+		abg1.groupName="ABG_Division_1"; 
+		getGroupDeatils();
+		
+		
+		
+		
